@@ -19,12 +19,12 @@ namespace CippSharp.Core.Tasks.Samples
         
         private void OnConditionChangedToTrue()
         {
-            Debug.Log("Wait Until → Condition was changed to true.", this);
+            Debug.Log($"[{gameObject.name}]: Wait Until → Condition was changed to true.", this);
         }
         
         private void WheneverConditionIsChanged(object o)
         {
-            Debug.Log($"Listener → Condition was changed to {((bool)o).ToString()}.", this);
+            Debug.Log($"[{gameObject.name}/Listener]: → Condition was changed to {((bool)o).ToString()}.", this);
         }
     }
 }

@@ -1,0 +1,17 @@
+{
+  "name": "com.cippsharpcore.tasks",
+  "version": "1.0.0",
+  "displayName": "CippSharp.Tasks",
+  "description": "Custom System.Threading.Tasks Utils",
+  "unity":"2019.4",
+  "unityRelease":"10f1",  
+  "keywords": [
+    "cippsharp",
+    "tasks"
+  ],
+  "license": "Apache 2.0",
+  "author" : {
+    "name" : "Alessandro Salani (Cippman)",    
+    "url" : "https://github.com/ZiosTheCloudburster/CippSharpCoreTasks.git"
+  }  
+}
