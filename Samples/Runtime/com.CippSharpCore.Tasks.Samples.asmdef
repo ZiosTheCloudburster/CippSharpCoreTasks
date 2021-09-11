@@ -1,0 +1,15 @@
+{
+    "name": "com.CippSharpCore.Tasks.Samples",
+    "references": [
+        "GUID:46f3c224e1372464baeadd112fff02f4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
