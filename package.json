@@ -9,7 +9,7 @@
     "cippsharp",
     "tasks"
   ],
-  "license": "Apache 2.0",
+  "license": "MIT",
   "author" : {
     "name" : "Alessandro Salani (Cippman)",    
     "url" : "https://github.com/ZiosTheCloudburster/CippSharpCoreTasks.git"
