@@ -1,6 +1,6 @@
 {
   "name": "com.cippsharpcore.tasks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "CippSharp.Tasks",
   "description": "Custom System.Threading.Tasks Utils",
   "unity":"2019.4",

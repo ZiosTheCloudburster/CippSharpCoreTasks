@@ -13,4 +13,4 @@ Contains the main code TasksUtils.cs, Listeners and an example
  - [repo](https://github.com/ZiosTheCloudburster/CippSharpCoreTasks.git)
 
 ### Support:
-- [patreon](https://www.patreon.com/AlessandroSalani)
+- [tip jar](https://www.amazon.it/photos/share/Gbg3FN0k6pjG6F5Ln3dqQEmwO0u4nSkNIButm3EGtit)
