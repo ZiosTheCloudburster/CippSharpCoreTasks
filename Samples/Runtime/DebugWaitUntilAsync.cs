@@ -5,8 +5,9 @@ namespace CippSharp.Core.Tasks.Samples
 {
     internal class DebugWaitUntilAsync : MonoBehaviour
     {
+#pragma warning disable 414
         [SerializeField] private string tooltip = "Change condition at runtime to see what happens.";
-        
+#pragma warning restore 414
         [SerializeField] private bool condition = false;
 
         private Listener<DebugWaitUntilAsync, bool> listener = null;
