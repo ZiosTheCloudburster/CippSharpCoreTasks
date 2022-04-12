@@ -1,9 +1,12 @@
-﻿using UnityEngine;
+﻿#if UNITY_EDITOR
+using UnityEngine;
 
 namespace CippSharp.Core.Tasks.Samples
 {
-    public class DebugWaitUntilAsync : MonoBehaviour
+    internal class DebugWaitUntilAsync : MonoBehaviour
     {
+        [SerializeField] private string tooltip = "Change condition at runtime to see what happens.";
+        
         [SerializeField] private bool condition = false;
 
         private Listener<DebugWaitUntilAsync, bool> listener = null;
@@ -28,3 +31,4 @@ namespace CippSharp.Core.Tasks.Samples
         }
     }
 }
+#endif

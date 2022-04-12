@@ -48,7 +48,7 @@ namespace CippSharp.Core.Tasks
         /// <param name="context">not null</param>
         /// <param name="selector">not null</param>
         /// <param name="ticks">milliseconds</param>
-        public Listener(T context, Func<T, F> selector, int ticks = 1000)
+        public Listener(T context, Func<T, F> selector, int ticks = TaskUtils.oneSecond)
         {
             this.context = context;
             this.variable = selector.Invoke(context);
@@ -63,7 +63,7 @@ namespace CippSharp.Core.Tasks
         /// <param name="predicate">can be null</param>
         /// <param name="selector">not null</param>
         /// <param name="ticks"></param>
-        public Listener(T context, Predicate<T> predicate, Func<T, F> selector, int ticks = 1000) : this(context, selector, ticks)
+        public Listener(T context, Predicate<T> predicate, Func<T, F> selector, int ticks = TaskUtils.oneSecond) : this(context, selector, ticks)
         {
             this.predicate = predicate;
         }
